@@ -1,0 +1,88 @@
+
+.contact_section {
+  background-color: rgb(248, 248, 248);
+  margin-top: -183px;
+}
+.contact_section_container{
+  width: 1100px;
+  margin: auto;
+  padding: 60px 0px 40px 0px;
+  color: #383838;
+  font-family: "poppins", sans-serif;
+  line-height: 1.5em;
+  z-index: 99;
+}
+.title{
+  /* margin-bottom: 20px; */
+}
+.Get_in_touch_container{
+  /* border: 1px solid gainsboro; */
+  padding: 20px 0px;
+}
+.get_in_touch_title{
+  margin-bottom: 10px;
+}
+
+.contact_media_container{
+  margin-top: 30px;
+  
+}
+.contact_first_container{
+  display: flex;
+  justify-content:space-between;
+  gap: 20px;
+}
+.contact_media{
+  width: 100%;
+  padding:40px 0px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 30px;
+  color: #555555;
+}
+.phone_text, .email_text, .location_text{
+  font-size: 16px;
+  margin-top: 10px;
+  color: #383838;
+}
+
+.form_container{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  /* background-color: rgb(243, 243, 243); */
+  border-radius: 7px;
+  margin-top: 30px;
+  padding: 30px 40px ;
+}
+.form_container form{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.form_input{
+  width: 100%;
+  padding: 13px ;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.form_input_textarea{
+  width: 100%;
+  height: 86%;
+  padding: 10px ;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  outline: none;
+}
+
+#sendMailBtn{
+  border: none;
+  padding: 12px 40px;
+  font-size: 15px;
+  margin-top: 20px;
+  background-color: rgb(58, 58, 58);
+  color: #fff;
+  border-radius: 5px;
+}

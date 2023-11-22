@@ -1,0 +1,15 @@
+.experience_section{
+  background-color: rgb(248, 248, 248);
+  margin-top: -183px;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+}
+.experience_section_container{
+  width: 1100px;
+  padding: 60px 0px 40px 0px;
+  margin: auto;
+  color: #383838;
+}
+.experience_content_container{
+  margin-top: 25px;
+  
+}
