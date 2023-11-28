@@ -37,7 +37,7 @@ const page = () => {
               <div className={style.contact_media}>
                 <FaMapMarkerAlt />
                 <div className={style.location_text}>
-                  <p>H-171 Kalabagan 2nd Ln, Dhaka 1205</p>
+                  <p>Dewly-1903, Basail, Tangail.</p>
                 </div>
               </div>
             </div>

@@ -7,7 +7,7 @@ const experiences = [
   {
     designation: "Frontend Developer",
     job_type: "Full Time",
-    duration: "Jun 2021 - August 2021",
+    duration: "JUN 2022 - PRESENT.",
     company: "Excel IT Ai",
     location: "Moghbazar, New Easkaton, Ramna, Dhaka-1217",
     description:
@@ -17,7 +17,7 @@ const experiences = [
   {
     designation: "Frontend Developer",
     job_type: "Full Time",
-    duration: "Jun 2021 - August 2021",
+    duration: "JUN 2021 - AUGUST 2021..",
     company: "Flinbo",
     location: "Barcelona, Spain(Remote)",
     description:
@@ -26,7 +26,7 @@ const experiences = [
   {
     designation: "MERN Stack Developer",
     job_type: "Freelance",
-    duration: "Nov 2021 - Jan 2023",
+    duration: "NOVEMBER 2021 - JANUARY 2023.",
     company: "",
     location: "United States",
     description:
@@ -44,7 +44,9 @@ const ExperienceContent = () => {
               {experience.designation} - <small>({experience.job_type})</small>{" "}
             </h3>{" "}
             {/* <SiOnlyoffice /> */}
-
+            <small>{experience.duration}</small>
+            <br />
+            <br />
             <span> {experience.company ? experience.company : "---"} </span>|
             <span> {experience.location}</span>
           </div>

@@ -19,7 +19,7 @@ const AboutContent = () => {
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1yUkfhEBPQELty6RkzZ-DtEj_gmZ9Nbns/view?usp=sharing"
+            href="https://drive.google.com/file/d/1K-JjTj_rq2oJJqjQwvNy3kWHqbN-zKTI/view?usp=sharing"
             download
           >
             <button type="button" id={style.downloadResumeBtn}>

@@ -44,7 +44,7 @@ const Showcase = () => {
                   <li>Home</li>
                 </Link>
                 <Link href="/about">
-                  <li>Experience & Skills</li>
+                  <li>About</li>
                 </Link>
                 {/* <Link href="/experience">
                   <li>Experience</li>
