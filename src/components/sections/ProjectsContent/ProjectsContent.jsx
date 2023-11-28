@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import React from "react";
 import bppShopImg from "../../../assets/images/projects-img/screenshot-localhost_3001-2023.11.17-15_11_01.jpg";

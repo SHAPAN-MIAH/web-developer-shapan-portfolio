@@ -1,9 +1,10 @@
+
 .showcase_section {
   width: 100%;
   height: 100vh;
   background: linear-gradient(#00000027, #00000027),
     linear-gradient(#00000027, #00000027),
-    url("../../Assets/Images/photo-1553095066-5014bc7b7f2d.jpg") center center;
+    url("../../assets/images/photo-1553095066-5014bc7b7f2d.jpg") center center;
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import style from "./ExperienceContent.module.css";
 import { AiFillGithub, IconName } from "react-icons/ai";

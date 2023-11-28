@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import jsImg from "../../../assets/images/skills-icons/js.png";
 import es6Img from "../../../assets/images/skills-icons/es6.png";

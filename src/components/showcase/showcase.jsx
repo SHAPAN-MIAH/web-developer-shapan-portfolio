@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import style from "./showcase.module.css";
 import profileImg from "../../assets/images/s logo.png";
