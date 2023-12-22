@@ -5,7 +5,7 @@
   background: linear-gradient(#00000027, #00000027),
     linear-gradient(#00000027, #00000027),
     url("../../assets/images/photo-1553095066-5014bc7b7f2d.jpg") center center;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -62,7 +62,7 @@
   /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .search_menu_bar {
   /* width: 509px; */

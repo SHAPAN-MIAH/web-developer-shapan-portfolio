@@ -6,11 +6,11 @@ const AboutContent = () => {
   return (
     <div>
       <div className={style.about_content_container}>
-        <br />
-        <h2>SOME WORDS ABOUT ME..</h2>
+        {/* <br /> */}
+        {/* <h2>Some words of me..</h2> */}
         <br/>
           <p>
-            I'm a <b>Web Developer</b> with over two years of reasonable
+            I'm a <b>Web Developer</b> with over two years of professional
             experience, And comfortable working with React.js, Next.js, Vue.js,
             And Nuxt.js. I'm Able to work independently and as part of a team
             for strong collaboration and delivering high-quality projects. I am
