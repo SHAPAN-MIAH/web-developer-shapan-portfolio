@@ -1,40 +1,43 @@
 import React from "react";
 import styles from "./footer.module.css";
+import {
+  AiFillFacebook,
+  AiFillGithub,
+  AiFillLinkedin,
+  AiFillTwitterSquare,
+} from "react-icons/ai";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <footer className={styles.footer_section}>
       <div className={styles.footer_container}>
-      <div className="footer-dec">
-        <h3>MD. SHAPAN</h3>
-      </div>
+        <div className="footer-dec">
+          <h3>MD. SHAPAN</h3>
+        </div>
 
-      <div className="socials">
-        <p>Don't hesitate to contact me. Please feel free and visit my site.</p>
-        <a className="text-white" href="">
-          <i className="fab fa-facebook-f"></i>
-        </a>
-        <a className="text-white" href="">
-          <i className="fab fa-twitter"></i>
-        </a>
-        <a className="text-white" href="">
-          <i className="fab fa-instagram"></i>
-        </a>
-        <a
-          className="text-white"
-          href="https://www.linkedin.com/in/md-shapan-miah-8bb7361a2/"
-        >
-          <i className="fab fa-linkedin-in"></i>
-        </a>
-        <a className="text-white" href="https://github.com/SHAPAN-MIAH">
-          <i className="fab fa-github"></i>
-        </a>
-      </div>
-      <div className="copyRight text-center">
-        <small>
-          Copyright <span id="year"></span> All Rights Reserved
-        </small>
-      </div>
+        <div className="socials">
+          {/* <h4>Get in touch</h4> */}
+          {/* <p>Don't hesitate to contact me. Feel free to ask any questions. visit my site.</p> */}
+          
+          <Link className={styles.social_icon} href="https://www.linkedin.com/in/md-shapan-miah/">
+            <AiFillLinkedin />
+          </Link>
+          <Link className={styles.social_icon} href="https://github.com/SHAPAN-MIAH">
+            <AiFillGithub />
+          </Link>
+
+          <Link className={styles.social_icon} href="https://github.com/Md-Swapan">
+            <AiFillGithub />
+          </Link>
+          <Link className={styles.social_icon} href="https://www.facebook.com/shwpon.mahmud/">
+            <AiFillFacebook />
+          </Link>
+          <Link className={styles.social_icon} href="https://twitter.com/MDSHAPANMIAH1">
+            <AiFillTwitterSquare />
+          </Link>
+        </div>
+        
       </div>
     </footer>
   );
