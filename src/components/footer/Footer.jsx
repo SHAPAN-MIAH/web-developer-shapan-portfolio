@@ -6,6 +6,7 @@ import {
   AiFillLinkedin,
   AiFillTwitterSquare,
 } from "react-icons/ai";
+import { IoGlobeOutline } from "react-icons/io5";
 import Link from "next/link";
 
 const Footer = () => {
@@ -23,6 +24,13 @@ const Footer = () => {
           <Link className={styles.social_icon} href="https://www.linkedin.com/in/md-shapan-miah/">
             <AiFillLinkedin />
           </Link>
+          
+          <Link className={styles.social_icon} href="https://www.facebook.com/shwpon.mahmud/">
+            <AiFillFacebook />
+          </Link>
+          <Link className={styles.social_icon} href="https://twitter.com/MDSHAPANMIAH1">
+            <AiFillTwitterSquare />
+          </Link>
           <Link className={styles.social_icon} href="https://github.com/SHAPAN-MIAH">
             <AiFillGithub />
           </Link>
@@ -30,11 +38,8 @@ const Footer = () => {
           <Link className={styles.social_icon} href="https://github.com/Md-Swapan">
             <AiFillGithub />
           </Link>
-          <Link className={styles.social_icon} href="https://www.facebook.com/shwpon.mahmud/">
-            <AiFillFacebook />
-          </Link>
-          <Link className={styles.social_icon} href="https://twitter.com/MDSHAPANMIAH1">
-            <AiFillTwitterSquare />
+          <Link className={styles.social_icon} href="https://shapan.netlify.app/">
+          <IoGlobeOutline />
           </Link>
         </div>
         
